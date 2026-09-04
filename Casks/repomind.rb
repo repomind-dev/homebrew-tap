@@ -4,21 +4,21 @@ cask "repomind" do
 
   on_macos do
     on_arm do
-      sha256 "01db834248adcaf0680dab7f0a1a9e14ef2e59293b4f3078e866a0af2a53e02f"
+      sha256 "5fec5337f53080643b65503f20a751b550d2d4a13c0d36ff0b7b6baedd6cd47f"
       url "https://github.com/repomind-dev/repomind/releases/download/v#{version}/repomind_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "8e4dd59cd20ccb54a42f16ab936986f5150eeee75feebfa09b16045576d41b54"
+      sha256 "fcdb7c49510e63995d931e871582bedc6701b6b9856151ee93de65b11e85f275"
       url "https://github.com/repomind-dev/repomind/releases/download/v#{version}/repomind_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "250a47453a22bff76fb072d7573ab1a6f41b67e02b7055540db1d6575cb2c776"
+      sha256 "5b99dd155d1365cbebd6525f963c144d378fb1e8640284bf1ecced781ea12dba"
       url "https://github.com/repomind-dev/repomind/releases/download/v#{version}/repomind_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "0f5575a795b2c1e30ef20607a3eca124ade38d52bedf0a23b3bb19c1029a6e5d"
+      sha256 "2da40b54d0bd57a769e2ecdeab913e888153135223697d9ef0fd0959da86f67b"
       url "https://github.com/repomind-dev/repomind/releases/download/v#{version}/repomind_#{version}_linux_amd64.tar.gz"
     end
   end
